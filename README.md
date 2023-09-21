@@ -4,8 +4,6 @@ Our interpreter can be run as either a stack (LIFO) or queue (FIFO). Mode can be
 
 
 
-## :wrench: Monty Opcodes
-
 * **push**
   * Usage: `push <int>`
   * Pushes an element to the stack.
