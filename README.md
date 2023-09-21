@@ -3,10 +3,6 @@ specific instructions to manipulate it. The goal of this project is to create an
 
 Monty byte code files
 Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
-
-
-
-
 Welcome to the Monty Bytecode Interpreter. This interpreter was built in the C language and is compliant with `ISO90`, `ISO99`, & `ISO11`. It reads Monty bytecode files of any extension (preferably `.m` although it doesn't matter), and interprets the opcodes contained.
 
 Our interpreter can be run as either a stack (LIFO) or queue (FIFO). Mode can be switched mid-script. The interpreter can handle a variety of Monty opcodes, including printing, mathematical operations, and more - all handled opcodes are listed below.
@@ -72,7 +68,3 @@ Our interpreter can be run as either a stack (LIFO) or queue (FIFO). Mode can be
 
 * **queue**
   * Switches a stack to queue mode.
-
-:arrow_forward: Opcodes preceeded by a `#` are treated as comments and the corresponding line is ignored.
-
-:arrow_forward: Lines can be empty and can contain any number of spaces before or after an opcode and its argument (only the first opcode and/or argument is taken into account).
