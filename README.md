@@ -4,17 +4,6 @@ Our interpreter can be run as either a stack (LIFO) or queue (FIFO). Mode can be
 
 
 
-```
-gcc -Wall -Werror -Wextra -pedantic *.c -o monty
-```
-
-Run the interpreter on a file:
-
-```
-./monty file.m
-```
-
-
 ## :wrench: Monty Opcodes
 
 * **push**
